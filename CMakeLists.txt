@@ -13,10 +13,13 @@ find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(action_msgs REQUIRED)
+find_package(geometry_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
+  "msg/ObjectUpdate.msg"
+  "srv/GetObjectRelation.srv"
   "action/Vampire.action"
-  DEPENDENCIES action_msgs std_msgs)
+  DEPENDENCIES action_msgs std_msgs geometry_msgs)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
