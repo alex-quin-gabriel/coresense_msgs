@@ -1,4 +1,3 @@
-string objecta
-string objectb
+string formula
 ---
-string relation
+float32 value
