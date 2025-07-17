@@ -18,7 +18,13 @@ find_package(geometry_msgs REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ObjectUpdate.msg"
   "srv/GetObjectRelation.srv"
-  "action/Vampire.action"
+  "srv/ListKnowledge.srv"
+  "srv/AddKnowledge.srv"
+  "srv/RemoveKnowledge.srv"
+  "srv/PopKnowledge.srv"
+  "srv/Understanding.srv"
+  "action/QueryReasoner.action"
+  "action/Understand.action"
   DEPENDENCIES action_msgs std_msgs geometry_msgs)
 
 if(BUILD_TESTING)
