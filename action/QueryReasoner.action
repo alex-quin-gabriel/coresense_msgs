@@ -2,5 +2,6 @@ string query
 string configuration
 ---
 string result
+uint8 code
 ---
 string status
