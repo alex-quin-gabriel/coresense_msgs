@@ -1,0 +1,4 @@
+string session_id
+string formula
+---
+bool success
