@@ -1,3 +1,4 @@
+string session_id
 string query
 string configuration
 ---

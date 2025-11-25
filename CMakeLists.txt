@@ -17,6 +17,10 @@ find_package(geometry_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ObjectUpdate.msg"
+  "srv/StartSession.srv"
+  "srv/AddToSession.srv"
+  "srv/ListSession.srv"
+  "srv/GetSolution.srv"
   "srv/GetObjectRelation.srv"
   "srv/ListKnowledge.srv"
   "srv/AddKnowledge.srv"
