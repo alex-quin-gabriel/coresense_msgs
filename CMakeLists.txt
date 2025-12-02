@@ -21,6 +21,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/AddToSession.srv"
   "srv/ListSession.srv"
   "srv/GetSolution.srv"
+  "srv/VampireExternalPredicate.srv"
   "srv/GetObjectRelation.srv"
   "srv/ListKnowledge.srv"
   "srv/AddKnowledge.srv"
