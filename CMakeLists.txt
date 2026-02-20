@@ -28,6 +28,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/RemoveKnowledge.srv"
   "srv/PopKnowledge.srv"
   "srv/Understanding.srv"
+  "srv/TestUnderstanding.srv"
   "action/QueryReasoner.action"
   "action/Understand.action"
   DEPENDENCIES action_msgs std_msgs geometry_msgs)
